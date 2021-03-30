@@ -9,7 +9,11 @@ this worst-case exponential-time algorithm is provably complete and
 fixed-parameter tractable. These guarantees, however, quickly
 disappear as distance measurement errors are introduced.
 
-An improvement of this approach: the threading-augmented interval Branch-and-Prune
+An implementation of the approach iBP, developed by Bradley Worley, is available 
+in the repository ibp-ng. The initial ibp-ng github depository is: 
+https://github.com/geekysuavo/ibp-ng
+
+An improvement of the approach iBP: the threading-augmented interval Branch-and-Prune
 (TAiBP), was proposed in:
 
 Malliavin TE, Mucherino A, Lavor C, Liberti L. Systematic Exploration of Protein
@@ -22,6 +26,9 @@ consecutive peptide fragments and by using Self-Organizing Maps (SOMs)
 to obtain clusters of similar solutions. The representative conformations
 of the fragments obtained from the clustering are then assembled to build the
 protein structure.
+
+The initial github depository for Self-Organizing Maps, was developed by Guillaume 
+Bouvier at: https://github.com/bougui505
 
 The calculation inputs are: a uniform covalent geometry extracted from force field
 covalent terms, the backbone dihedral angles with error intervals.
