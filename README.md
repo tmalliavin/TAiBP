@@ -39,6 +39,8 @@ The python scripts for running TAiBP are contained in the archive TAiBP.tgz,
 
 The python scripts for using Self-Organizing Maps (SOMs) are in the archive SOM.tgz.
 
+Note that the python scripts are wriiten in python 2! 
+
 The archive example_run.tg contains an example of running iBP and clustering for
 a peptide fragment (seg_2_11) and of running the assembly of two fragments (make_glue).
 
